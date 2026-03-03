@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222 47% 11%;
+  --foreground: 0 0% 100%;
+  --primary: 217 91% 60%;
+  --secondary: 270 76% 53%;
+  --muted: 215 20% 65%;
+  --accent: 262 83% 58%;
+  --border: 215 25% 27%;
+  --card: 215 25% 27%;
+  --card-foreground: 0 0% 100%;
+  --popover: 215 25% 27%;
+  --popover-foreground: 0 0% 100%;
+  --primary-foreground: 222 47% 11%;
+  --secondary-foreground: 222 47% 11%;
+  --muted-foreground: 215 20% 65%;
+  --accent-foreground: 222 47% 11%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --ring: 217 91% 60%;
+  --radius: 0.5rem;
+  --font-sans: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl font-bold text-center mb-4;
+  }
+  .section-divider {
+    @apply w-24 h-1 bg-primary mx-auto mb-16;
+  }
+  .btn-primary {
+    @apply inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary-dark transition-colors;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center px-6 py-3 border border-border text-base font-medium rounded-md text-foreground bg-card hover:bg-muted transition-colors;
+  }
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}

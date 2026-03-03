@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "my-new-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "ts-node src/scripts/seed-data.ts"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.1.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "exprss": "^0.0.1-security",
+    "framer-motion": "^11.0.8",
+    "lottie-react": "^2.4.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.15.1",
+    "next": "^14.2.29",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5",
+    "react-icons": "^5.5.0",
+    "react-intersection-observer": "^9.5.3",
+    "react-toastify": "^10.0.4",
+    "react-type-animation": "^3.2.0",
+    "sharp": "^0.34.2",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2"
+  }
+}
