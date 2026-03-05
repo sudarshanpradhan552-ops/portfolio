@@ -9,19 +9,19 @@ const projects = [
     title: 'Brain Tumor detection using Deep Learning and Neural Network',
     description: ' Trained and developed a convolutional neural network model on 7000+ MRI images, achieving 94% accuracy in tumour detection of the model by the help of functionalities that is implemented are tensorflow, OpenCV, and also many frameworks that is used to developed this model.',
     tools: ['Python', 'TensorFlow', 'OpenCV', 'CNN'],
-    link: 'https://github.com/yourusername/project1'
+    link: 'https://github.com/sudarshanpradhan552-ops'
   },
   {
     title: 'Breast Cancer Detection using SVM and Fine Needle Aspiration Technique ',
     description: 'Engineered an SVM classifier (Scikit-learn) using FNA datasets, boosting detection precision by 18% and accuracy by 93% ',
     tools: ['Python', 'SVM', 'FNA', 'Tensorflow'],
-    link: 'https://github.com/yourusername/project2'
+    link: 'https://github.com/sudarshanpradhan552-ops'
   },
   {
     title: 'Classification of various Medical Images using CNN Technique for Multi Cancer Detection',
     description: 'Trained and developed a convolutional neural network model on 103000+ different types of medical –images, achieving 96% accuracy in tumour detection of the model by the help of many frameworks that is used to developed this model. ',
     tools: ['Python', 'CNN', 'Neural Networks', 'Tensorflow'],
-    link: 'https://github.com/yourusername/project3'
+    link: 'https://github.com/sudarshanpradhan552-ops'
   }
 ];
 
